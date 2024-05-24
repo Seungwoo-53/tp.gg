@@ -1,0 +1,28 @@
+@font-face {
+font-family: 'Pretendard-Regular';
+src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+font-weight: 400;
+font-style: normal;
+}
+
+html,
+body {
+font-family: 'Pretendard-Regular';
+font-size: 16px;
+}
+
+.max-width {
+ white-space: nowrap;
+/* 텍스트가 한 줄로만 표시되도록 함 */
+overflow: hidden;
+/* 넘치는 텍스트는 숨김 처리 */
+text-overflow: ellipsis;
+/* 넘치는 텍스트를 생략 부호 (...)로 표시 */
+}
+
+.noticeStrong{
+    font-size: 22px;
+    padding-top: 4rem;
+    border-bottom: black;
+    padding-bottom: 0.3rem;
+}
